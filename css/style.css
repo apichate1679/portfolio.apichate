@@ -1,0 +1,430 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family:'Poppins',sans-serif ;
+    scroll-behavior: smooth;
+}
+section{
+    padding: 100px;
+}
+/*=============================Banner==================================*/
+.banner{
+    position: relative;
+    min-height: 100vh;
+    background: url('../pic/ClearCarelessBeagle-size_restricted.gif');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.banner h2{
+    font-size: 3em;
+    color: #FD5D54;
+    font-weight: 500;
+    line-height: 1.5em;
+}
+.banner h2 span{
+    font-size: 1.5em;
+    font-weight: 700;
+}
+.banner h3{
+    font-size: 1em;
+    color:whitesmoke;
+    font-weight: 500;
+}
+.banner p{
+    
+    color: whitesmoke;
+}
+.btn{
+    position:relative;
+    background:#FD5D54;
+    display:inline-block;
+    color:#fff;
+    margin-top: 20px;
+    padding: 10px 30px;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-weight: 500;
+}
+.btn:hover{
+    
+    background:#e44840;
+    color:#fff;
+    
+}
+.banner .textBox .pink{
+    color: #fff;
+}
+.banner .textBox .violet{
+    color: #fff;
+}
+.banner .textBox .home__social {
+    
+    display: flex;
+    flex-direction: column;
+    position:relative;
+   
+}
+.home__social-icon {
+    width: max-content;
+    font-size: 2.8rem;
+    color: #fff;
+} 
+.home__social-icon:hover {
+    color:#FD5D54;
+}
+/*=============================Banner==================================*/
+
+/*=============================Header==================================*/
+header{
+    position: fixed;
+    top:0;
+    left: 0;
+    width:100%;
+    padding: 40px 100px;
+    z-index:1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header.sticky{
+    background: #591472;
+    padding: 20px 100px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0,1);
+}
+header .logo{
+    color: #fff;
+    font-size: 24px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+header .sticky .logo{
+   color: whitesmoke;
+}
+header ul{
+    position: relative;
+    display: flex;
+}
+header ul li{
+    position:relative; 
+    list-style:none;
+}
+header ul li a{
+    position: relative;
+    display: inline-block;
+    margin: 0 15px;
+    color: #fff;
+    text-decoration: none;
+}
+header ul li a:hover{
+    color:#FD5D54 ;  
+}
+header.sticky ul li a{
+    color:whitesmoke;
+}
+header.sticky ul li a:hover{
+    color:#FD5D54;
+}
+.heading h2{
+    font-weight: 600;
+    font-size: 30px;
+}
+/*=============================Banner==================================*/
+
+/*=============================About==================================*/
+.about{
+    background-color: #111;
+}
+.heading{
+    width :100%;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.heading h2{
+    font-weight: 600;
+    font-size: 30px;
+    color:#88267C;
+}
+.heading h2 .pink{
+    font-weight: 600;
+    font-size: 30px;
+    color:#87C;
+}
+.content.no.flex{
+    color: whitesmoke;
+    justify-content: space-between;
+    text-align: center;
+    align-content: center;
+}
+.contentBox h3{
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+.contentBox h3.italic{
+    font-size: 24px;
+    margin-bottom: 20px;
+    font-weight: lighter;
+    font-style: italic;
+}
+.w50{
+    min-width: 50%; ;
+
+}
+img{
+    max-height: 20rem;
+    border-radius: 10%;
+}
+/*=============================Banner==================================*/
+
+/*=============================Assignment+Project==================================*/
+.testimonial.bd-container.section{
+    background-color:#111;
+}
+.testimonial__content {
+    height: 30px;
+    display: grid;
+    background-color: #FD5992;
+    color: white;
+    border-radius: .5rem;
+    padding: 2rem 1rem;
+    text-align: center;
+    box-shadow: 5px 10px 10px rgba(47, 10, 13, 0.25);
+}
+.testimonial__content:hover {
+    background-color:#FD5D54;
+}
+.testimonial__img {
+    width: 100%;
+    height: auto;
+    border-radius: .5rem;
+    justify-self: center;
+    margin-bottom: .5rem;
+}
+  
+.testimonial__client {
+    font-size: .75rem;
+    color: whitesmoke;
+    margin-bottom: 1rem;
+}
+  
+.swiper-pagination {
+    position: initial;
+}
+  
+.swiper-pagination-bullet-active {
+    background-color: var(--first-color);
+}
+.wrapper{
+    text-align: center;
+}
+.wrapper .btn1{
+    position:relative;
+    background:#FD5D54;
+    display:inline-block;
+    color:#fff;
+    margin-top: 20px;
+    padding: 10px 30px;;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-weight: 500;
+    text-align: center;
+}
+.btn1:hover{
+    background:#e44840;
+    color:#fff;
+}
+/*=============================Assignment+Project==================================*/
+
+/*=============================Skill==================================*/
+.services{
+    background-color:whitesmoke;
+}
+.services__data {
+    padding: 3rem 1rem;
+    background-color: #FFF;
+    border-radius: .5rem;
+    text-align: center;
+    transition: .4s;
+    box-shadow: 0 4px 6px rgba(174, 190, 205, 0.3);
+}
+.services__container.bd-grid {
+    display: grid;
+    gap: 1.5rem;
+}
+.services__data:hover {
+    transform: translateY(-0.5rem);
+    box-shadow: 0 6px 8px rgba(174, 190, 205, 0.4);
+}
+.img{
+    height:50%;
+    width:auto;
+}
+  
+.services__icon1, .services__title1 {
+    margin-bottom: 1rem;
+    color: #FD5D54;
+}
+.services__icon2, .services__title2 {
+    margin-bottom: 1rem;
+    color: #FD5992;
+}
+.services__icon3, .services__title3 {
+    margin-bottom: 1rem;
+    color: #591472;
+}
+.services__title4 {
+    margin-bottom: 1rem;
+    color: #87C
+}
+  
+.services__icon {
+    font-size: 3rem;
+}
+  
+.services__title {
+    font-size: 1.125rem;
+}
+.services__description {
+    margin-bottom: 2rem;
+}
+
+/*=============================Interest==================================*/
+
+.services .content{
+    color:#fff;
+    display:flex;
+    justify-content:center;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.services .content .servicesBx{
+    padding: 40px 20px;
+    background: #88267C;
+    color: #fff;
+    max-width:340px;
+    margin:20px;
+    text-align: center;
+    transition: 0.5s;
+}
+.services .content .servicesBx:hover{
+    background: #FD5D54;
+}
+.services .content .servicesBx h2{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+
+/*=============================Footer==================================*/
+.footer {
+    background-color: black;
+    color: white;
+}
+  
+.footer__container {
+    padding: 1rem 0;
+    text-align: center;
+}
+  
+.footer__container .Ref {
+    font-size: 1.5rem;
+    margin-bottom: .5rem;
+    font-weight:  500;
+}
+.footer .footer__container .textLink a.text{
+    text-decoration: none;
+    font-size: 1rem;
+    margin-top: .5rem;
+    color:whitesmoke;
+}
+.footer__copy {
+    font-size: .813rem;
+    color: whitesmoke;
+    text-align: center;
+}
+/**==================Responsive Part===================**/
+@media (max-width:991px){
+    header,
+    header.sticky{
+        padding: 20px 50px;
+        z-index: 1000;
+    }
+    .menu{
+        position: fixed;
+        top: 75px;
+        left: -100%;
+        display: block;
+        padding: 100px 50px;
+        text-align: center;
+        width:100%;
+        height:100vh;
+        background: #87C;
+        color: whitesmoke;
+        transition: 0.5s;
+        z-index:999;
+        border-top: 1px solid rgba(0,0,0,0,2);
+    }
+    .menu.active{
+        Left:0;
+    }
+    header ul li a{
+        color:whitesmoke;
+        font-size: 24px;
+        margin: 10px;
+    }
+    .toggle{
+        width: 40px;
+        height: 40px;
+        background: url(/pic/menu.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 30px;
+        cursor: pointer;
+    }
+    .toggle.active{
+        width: 40px;
+        height: 40px;
+        background: url(/pic/close.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 25px;
+        cursor: pointer;
+    }
+    header.sticky .toggle{
+        color:#FD5D54;
+    }
+    section{
+        padding: 100px 50px;
+    }
+    .banner{
+        padding: 150px 50px 100px;
+    }
+    .banner h3{
+        font-size: 1.5m;
+    }
+    .btn{
+        margin-top: 10px ;
+        padding:10px 20px ;
+        font-size: 16px;
+    }
+    .heading h2{
+        font-size: 24px;
+
+    }
+    .heading h3{
+        font-size: 20px;
+
+    }
+
+}
+

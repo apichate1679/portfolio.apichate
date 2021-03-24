@@ -1,0 +1,139 @@
+.grid-container {
+	display: grid;
+	grid-template-columns: 30% auto;
+	grid-gap: 10px;
+}
+.grid-container > div{
+	font-size: 30px;
+	text-align: left;
+}
+#logo{
+    text-align:center;
+}
+#header{
+	text-align:center;
+}
+#main2{
+	text-align: left;
+    font-size: 100%;
+}
+ul{
+    margin: left;  /*ระยะขอบ ผลักอัตโนมัติ*/
+}
+.serve_bullet{
+    margin: left;  /*ระยะขอบ ผลักอัตโนมัติ*/
+}
+ol{
+    margin: left;  /*ระยะขอบ ผลักอัตโนมัติ*/  
+}
+#main3{
+    text-align: left;
+    font-size: 100%;
+}
+.mat_bul{
+    margin: auto;  /*ระยะขอบ ผลักอัตโนมัติ*/
+    width: 25%;   /*ความกว้าง*/
+    padding: 5px;
+}
+.Ref{
+    text-align: left;
+    font-size :100%; 
+}
+.material_pic{
+    display: block;   /*แสดงในบล็อก ในกล่อง*/
+    margin-right: auto;  /*ระยะขอบขวา auto*/
+    margin-left: auto;   /*ระยะขอบซ้าย auto*/
+    margin-bottom: 10px;
+    width:300px;
+    height: auto;
+ }
+ #peanut{
+    display: block;   /*แสดงในบล็อก ในกล่อง*/
+    margin-bottom: 20px;
+    margin-right: auto;  /*ระยะขอบขวา auto*/
+    margin-left: auto;   /*ระยะขอบซ้าย auto*/
+    width:300px;
+    height: auto;
+}
+#vegie{
+    display: block;   /*แสดงในบล็อก ในกล่อง*/
+    margin-right: auto;  /*ระยะขอบขวา auto*/
+    margin-left: auto;   /*ระยะขอบซ้าย auto*/
+    margin-bottom: 10px;
+    width:300px;
+    height: auto;
+}
+#step{
+    font-size: 20px;
+    text-align: center;
+}
+#serve{
+    font-size: 20px;
+    text-align: center;
+}
+#what{
+    font-size: 20px;
+    text-align: center;
+}
+a:link{ /*pseudo class of link*/
+    color: red;
+}
+a:visited{
+    color: green;
+}
+a:hover{ /*ปลี่ยนสีตอนเมาส์วาง*/
+    color:blue; 
+}
+hr.solid {
+    margin: auto;  /*ระยะขอบ ผลักอัตโนมัติ*/
+    width: 90%;   /*ความกว้าง*/
+}
+#footer{
+    font-size: 100%;
+    text-align: center;
+    grid-column: 1 / span 2;
+}
+@media only screen and (max-width: 768px) {
+	.grid-container {
+		display: grid;
+		grid-template-columns: auto;
+		grid-gap: 10px;
+	}
+	#logo{
+		grid-column: 1 / span 2;
+	}
+	#header{
+		grid-column: 2 / span 1;
+	}
+	#main2{
+		grid-column: 1 / span 1;
+	}
+	#main3{
+		grid-column: 2 / span 1;
+	}
+	#footer{
+		grid-column: 1 / span 2;
+	}
+}
+@media only screen and (max-width: 480px) {
+	.grid-container {
+		  display: grid;
+		  grid-template-columns: auto;
+		  grid-gap: 10px;
+	}
+	#logo{
+		grid-column: 1 / span 1;
+	}
+	#header{
+		grid-column: 1 / span 1;
+	}
+	#main2{
+		grid-column: 1 / span 1;
+	}
+	#main3{
+		grid-column: 1 / span 1;
+	}
+	#footer{
+		grid-column: 1 / span 1;
+	}
+}

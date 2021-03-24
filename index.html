@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/swiper-bundle.min.css">
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+    <title>Portfolio</title>
+
+</head>
+<body>
+
+    <!--=============START OF HEADER===================-->
+    <header>
+        <a href="#home" class="logo">Portfolio</a>
+        <div class="toggle" onclick="toggleMenu();"></div>
+        <ul class="menu">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skill">Skill</a></li>
+            <li><a href="#interest">Interest</a></li>
+            <li><a href="#assignment">Assignment</a></li>
+            <li><a href="#project">Project</a></li>
+        </ul>
+    </header>
+    <!--=============END OF HEADER===================-->
+
+    <!--=============START OF BANNER===================-->
+    <section class="banner" id="home">
+        <div class="textBox">
+            <h2>Hello,I'm<br><span class="pink">Apichate </span><span class="violet" >Vuttiosod</span></h2>
+            <h3>Welcome to my Portfolio Website</h3>
+            <a href="#about" class="btn">About me</a>
+            <div class="home_social">
+                <a href="https://www.facebook.com/apichate.vuttiosod/" target="_blank" class="home__social-icon"><i class='bx bxl-facebook-square'></i></a>
+                <a href="https://www.instagram.com/frongy_z/" target="_blank" class="home__social-icon"><i class='bx bxl-instagram'></i></a>
+                <a href="https://twitter.com/" target="_blank" class="home__social-icon"><i class='bx bxl-twitter'></i></a>
+            </div>
+        </div>
+    </section>
+    <!--=============END OF BANNER===================-->
+
+    <!--=============START OF ABOUT===================-->
+    <section class="about" id="about">
+        <div class="heading" data-aos="fade-up">
+            <h2>-About <span class="pink">me</span>-</h2>
+        </div>
+        <div class="content no flex">
+            <div class="w50">
+                <img src="./pic/pro.jpg" class="img">
+            </div><br>
+            <div class="contentBox">
+                <h3>Name: Apichate Vuttiosod</h3>
+                <h3>Nickname: Frong</h3>
+                <h3>Age: 22</h3>
+                <h3 class="italic">'I'm a third year student who's majoring in Media&Technology at KMUTT'</h3>
+            </div>
+        </div>  
+        <!--=============START OF HOBBY===================-->
+        <div class="content no flex">
+            <div class="hobby">
+                <div class="heading" data-aos="fade-up">
+                   <h2>-My <span class="pink">Hobby</span>-</h2>
+                </div>
+                <div class="contentBox">
+                  <h3>• Play game</h3>
+                  <h3>• Listen to musid</h3>
+                  <h3>• Weight training</h3>
+                  <h3>• Watch movie</h3>
+                </div> 
+              </div>
+        </div>
+        <!--=============END OF HOBBY===================-->
+    </section>
+    <!--=============END OF ABOUT===================-->
+
+    <!--=============END OF Skill===================-->
+    <section class="services" id="skill">
+        <div class="heading">
+            <h2>-My <span class="pink">Skill</span>-</h2>
+        </div>
+        <div class="services__container bd-grid">
+            <div class="services__data">
+                <i class='bx bx-laptop services__icon1'></i>
+                <h3 class="services__title1">Programming</h3>
+                <p class="services__description">C# C++<br>HTML CSS JAVASCRIPT</p>
+            </div>
+
+            <div class="services__data">
+                <i class='bx bx-paint services__icon2'></i>
+                <h3 class="services__title2">Grapgic Design</h3>
+                <p class="services__description">Adobe Photoshop</p>
+            </div>
+
+            <div class="services__data">
+                <i class='bx bxl-creative-commons services__icon3'></i>
+                <h3 class="services__title3">2D Animation</h3>
+                <p class="services__description">Adobe AnimateCC</p>
+            </div>
+        </div>
+     </section>
+    <!--=============END OF Skill===================-->
+
+    <!--=============END OF Interest===================-->
+    <section class="services" id="interest">
+        <div class="heading">
+            <h2>-<span class="pink">Interest</span>-</h2>
+        </div>
+        <div class="content">
+            <div class="servicesBx">
+               <h2>• Web Development •</h2>
+            </div>
+           <div class="servicesBx">
+               <h2>• Graphic Design •</h2>
+           </div>
+           <div class="servicesBx">
+              <h2>• UX/UI Design •</h2>
+
+            </div>
+           <div class="servicesBx">
+                <h2>• Conten Creator •</h2>
+            </div>
+            <div class="servicesBx">
+                <h2>• Artificial Intelligence •</h2>
+            </div>
+        </div>
+    </section>
+    <!--=============END OF Interest===================-->
+
+    <!--=============START OF ASSIGNMENT===================-->
+    <section class="testimonial bd-container section" id="assignment">
+        <div class="heading">
+            <h2>-<span class="pink">Assigment</span>-</h2>
+        </div>
+        <div class="testimonial__container swiper-container">
+            <div class="swiper-wrapper">
+                <div class="testimonial__content swiper-slide">
+                    <img src="./pic/food.JPG" alt="" class="testimonial__img">
+                    <span class="testimonial__client">Asiignment1</span>
+                    <h3 class="testimonial__title">Chicken Stay</h3>
+                    <p class="testimonial__description">Responsive Web Sesign</p>
+                </div>
+                <div class="testimonial__content swiper-slide">
+                    <img src="./pic/blog.JPG" alt="" class="testimonial__img">
+                    <span class="testimonial__client">Assignment2</span>
+                    <h3 class="testimonial__title">Blog</h3>
+                    <p class="testimonial__description">Javascript: Condition</p>
+                </div>
+                <div class="testimonial__content swiper-slide">
+                    <img src="./pic/regist.JPG" alt="" class="testimonial__img">
+                    <span class="testimonial__client">Assignment3</span>
+                    <h3 class="testimonial__title">Register&Login</h3>
+                    <p class="testimonial__description">Javascript:For-Loop</p>
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+        <div class="wrapper">
+            <a href="./assignment.html" class="btn1">See more</a>
+        </div>
+    </section>
+    <!--=============END OF ASSIGNMENT===================-->
+
+    <!--=============Start OF Project===================-->
+    <section class="testimonial bd-container section" id="project">
+        <div class="heading">
+            <h2>-<span class="pink">Project</span>-</h2>
+        </div>
+        <div class="testimonial__container swiper-container">
+            <div class="swiper-wrapper">
+                <div class="testimonial__content swiper-slide">
+                    <img src="./pic/anime1.JPG" alt="" class="testimonial__img">
+                    <h3 class="testimonial__title">Animation Project1</h3>
+                </div>
+                <div class="testimonial__content swiper-slide">
+                    <img src="./pic/anime2.JPG" alt="" class="testimonial__img">
+                    <h3 class="testimonial__title">Animation Project2</h3>
+                </div>
+                <div class="testimonial__content swiper-slide">
+                    <img src="./pic/post.JPG" alt="" class="testimonial__img">
+                    <h3 class="testimonial__title">Unity Game</h3>
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+        <div class="wrapper">
+            <a href="./project.html" class="btn1">See more</a>
+        </div>
+    </section>
+    <!--=============End OF Project===================-->
+     
+    <!--=====Start OF FOOTER =====-->
+    <footer class="footer">
+        <div class="footer__container">
+            <div class="Ref">Refference 
+            </div>
+            <div class="textLink">
+                <a href="https://www.youtube.com/channel/UCbwXnUipZsLfUckBPsC7Jog" class="text">- Online Tutorials Ch. -</a><br>
+                <a href="https://www.buymeacoffee.com/bedimcode" class="text">- Bedimcode -</a><br>
+                <a href="https://swiperjs.com/" class="text">- Swiper -</a><br>
+                <a href="https://boxicons.com/" class="text">- Boxicons -</a>
+            </div>
+            <div class="footer__copy">&#169; Apichate Vuttiosod Website</div>
+        </div>
+
+    </footer>
+    <!--=====END OF FOOTER =====-->
+        
+    <!-- ===== SWIPER JS ===== -->
+    <script src="./js/swiper-bundle.min.js"></script>
+    
+    <!--===== MAIN JS =====-->
+    <script src="./js/main.js"></script>
+
+</body>
+</html>
